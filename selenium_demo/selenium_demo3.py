@@ -2,6 +2,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
+'''
+模拟浏览器输入、清空、点击查询
+'''
+
 # 定义浏览器位置
 options = webdriver.ChromeOptions()
 options.binary_location = 'D:\TSBrowser\TSBrowser.exe'
