@@ -28,4 +28,6 @@ input.send_keys('iPad')
 button = browser.find_element_by_class_name('btn-search')
 button.click()
 
+browser.close()
+
 # 完美！！
